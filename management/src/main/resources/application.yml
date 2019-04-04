@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: manage
+  datasource:
+    url: jdbc:mysql://yun2.kj120.cn/shop_live?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf-8
+    username: root
+    password: 8319448
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka
